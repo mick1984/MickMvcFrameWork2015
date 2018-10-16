@@ -793,7 +793,7 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MisBase2015.DataAccess\MisBase2015.DataAccess\MisBase2015.DataAccess.csproj">
+    <ProjectReference Include="..\MisBase2015.DataAccess\MisBase2015.DataAccess.csproj">
       <Project>{ff50e9b3-da04-49e0-9ec5-3ad2e637b4d3}</Project>
       <Name>MisBase2015.DataAccess</Name>
     </ProjectReference>
