@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MickMvcFrameWork", "MickMvcFrameWork\MickMvcFrameWork.csproj", "{86A039B1-7611-48C9-8A4E-51E98E72C9DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MisBase2015.DataAccess", "..\MisBase2015.DataAccess\MisBase2015.DataAccess\MisBase2015.DataAccess.csproj", "{FF50E9B3-DA04-49E0-9EC5-3AD2E637B4D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86A039B1-7611-48C9-8A4E-51E98E72C9DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A039B1-7611-48C9-8A4E-51E98E72C9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A039B1-7611-48C9-8A4E-51E98E72C9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A039B1-7611-48C9-8A4E-51E98E72C9DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF50E9B3-DA04-49E0-9EC5-3AD2E637B4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF50E9B3-DA04-49E0-9EC5-3AD2E637B4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF50E9B3-DA04-49E0-9EC5-3AD2E637B4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF50E9B3-DA04-49E0-9EC5-3AD2E637B4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

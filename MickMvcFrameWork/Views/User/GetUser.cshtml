@@ -1,0 +1,29 @@
+﻿@model MisBase.Users.Users
+
+@{
+    ViewBag.Title = "GetUser";
+    Layout = null;
+
+    List<SelectListItem> sli = (List<SelectListItem>)this.ViewData["USERLIST"];
+}
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
+
+@Scripts.Render("~/bundles/modernizr")
+
+@Scripts.Render("~/EasyUI/js")
+
+@Styles.Render("~/EasyUI/css")
+
+<h2>选择用户</h2>
+
+
+@using (Html.BeginForm())
+{     
+    @Html.ListBoxFor(m=>m.UserID, sli);
+
+    <br />    
+    
+    <button>提交</button>
+}

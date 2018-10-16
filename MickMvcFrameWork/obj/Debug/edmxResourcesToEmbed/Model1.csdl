@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LAZYEATINGModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Entities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="gjjZhiquHistory" EntityType="LAZYEATINGModel.gjjZhiquHistory" />
+  </EntityContainer>
+  <EntityType Name="gjjZhiquHistory">
+    <Key>
+      <PropertyRef Name="hisNum" />
+    </Key>
+    <Property Name="hisNum" Type="Int64" Nullable="false" />
+    <Property Name="hisName" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="hisID" Type="String" MaxLength="36" Unicode="false" FixedLength="false" />
+    <Property Name="hisDate" Type="DateTime" Precision="3" />
+    <Property Name="hisMoney" Type="Decimal" Precision="26" Scale="2" />
+    <Property Name="hisType" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="hisOperator" Type="String" MaxLength="5" Unicode="false" FixedLength="false" />
+    <Property Name="hisCount" Type="Int32" />
+    <Property Name="hisDaNum" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="hisRemark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="hisNetwork" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="hisRemark2" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="hisNumStr" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="hisTypeSub" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="hisgjjID" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="hisImportDate" Type="DateTime" Precision="3" />
+    <Property Name="hiswtspNum" Type="Int64" />
+    <Property Name="hisWork" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="hiszrAccount" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="hiszrAccName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="hisStateFlag" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,46 @@
+﻿@model MisBase.Users.Users
+
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
+
+@Scripts.Render("~/bundles/modernizr")
+
+@Scripts.Render("~/EasyUI/js")
+
+@Styles.Render("~/EasyUI/css")
+
+<script>
+    $(document).ready(
+        function()
+        {
+            //achangeVC的单击事件
+            $('#image').click(function () {
+                $("#image").attr("src", $("#image").attr("src")+1);
+            });
+        });
+</script>
+
+<h2>登录</h2>
+
+@using (Html.BeginForm())
+{
+    <text>账号：</text>
+    @Html.TextBoxFor(m => m.UserAccount)
+    <br />
+    
+    <text>密码：</text>
+    @Html.PasswordFor(m=>m.UserPwd)
+    <br />
+
+    <text>验证码：</text>
+    <input type="text" value="" style="width:50px;" />
+    <img id="image" src="/User/ValidateCode?id=1" style="height:24px;" /><a href="javascript:void(0)" id="achangeVC"></a>
+    <br />
+    
+    <button>登录</button>
+}

@@ -1,0 +1,32 @@
+﻿@model MickUserFrameWork.Models.GuideBar
+
+<script>
+    $(document).ready(function()
+    {
+        //减一
+        $("#btnBack").click(function (e) {
+            if($("#txtPageIndex").val()>0)
+                $("#txtPageIndex").val($("#txtPageIndex").val() - 1);
+        }
+        );
+
+        //加一
+        $("#btnNext").click(function (e) {
+            if (Number($("#txtPageIndex").val()) < Number(@Model.PageCount)-1) {
+                index = Number($("#txtPageIndex").val());
+                index = index + 1;
+                $("#txtPageIndex").val(index);
+            }            
+        }
+        );
+    }
+    );
+    
+
+</script>
+
+<div>
+    共 @Model.PageCount 页，当前第 <input type="text" readonly="true" name="CurrPageIndex" id="txtPageIndex" value="@Model.CurrPageIndex" style="width:30px" /> 页，每页显示 @Model.PageSize 条记录
+    <input type="button" id="btnBack" value="上一页" />
+    <button id="btnNext">下一页</button>
+</div>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LAZYEATINGModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="gjjZhiquHistory">
+      <EntityTypeMapping TypeName="LAZYEATINGModel.gjjZhiquHistory">
+        <MappingFragment StoreEntitySet="gjjZhiquHistory">
+          <ScalarProperty Name="hisNum" ColumnName="hisNum" />
+          <ScalarProperty Name="hisName" ColumnName="hisName" />
+          <ScalarProperty Name="hisID" ColumnName="hisID" />
+          <ScalarProperty Name="hisDate" ColumnName="hisDate" />
+          <ScalarProperty Name="hisMoney" ColumnName="hisMoney" />
+          <ScalarProperty Name="hisType" ColumnName="hisType" />
+          <ScalarProperty Name="hisOperator" ColumnName="hisOperator" />
+          <ScalarProperty Name="hisCount" ColumnName="hisCount" />
+          <ScalarProperty Name="hisDaNum" ColumnName="hisDaNum" />
+          <ScalarProperty Name="hisRemark" ColumnName="hisRemark" />
+          <ScalarProperty Name="hisNetwork" ColumnName="hisNetwork" />
+          <ScalarProperty Name="hisRemark2" ColumnName="hisRemark2" />
+          <ScalarProperty Name="hisNumStr" ColumnName="hisNumStr" />
+          <ScalarProperty Name="hisTypeSub" ColumnName="hisTypeSub" />
+          <ScalarProperty Name="hisgjjID" ColumnName="hisgjjID" />
+          <ScalarProperty Name="hisImportDate" ColumnName="hisImportDate" />
+          <ScalarProperty Name="hiswtspNum" ColumnName="hiswtspNum" />
+          <ScalarProperty Name="hisWork" ColumnName="hisWork" />
+          <ScalarProperty Name="hiszrAccount" ColumnName="hiszrAccount" />
+          <ScalarProperty Name="hiszrAccName" ColumnName="hiszrAccName" />
+          <ScalarProperty Name="hisStateFlag" ColumnName="hisStateFlag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

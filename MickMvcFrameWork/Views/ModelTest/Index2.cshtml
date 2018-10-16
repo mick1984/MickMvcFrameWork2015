@@ -1,0 +1,23 @@
+﻿@model MickUserFrameWork.Models.Person
+
+@{
+    ViewBag.Title = "Index2";
+}
+
+<h2>Index2</h2>
+
+@if (TempData.ContainsKey("msg"))
+    {
+        <p>
+            @TempData["msg"].ToString()
+        </p>
+    }
+
+    <br />
+    <label>@Model.ID</label>
+
+@using(Html.BeginForm())
+{
+    <input type="text" name="id" />
+    <input type="submit" value="提交" />
+}

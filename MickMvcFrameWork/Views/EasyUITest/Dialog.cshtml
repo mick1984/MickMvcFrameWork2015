@@ -1,0 +1,50 @@
+﻿@{
+    Layout = null;
+}
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Dialog</title>
+
+    @*<link href="~/jquery-easyui-1.5.2/themes/default/easyui.css" rel="stylesheet" />
+    <link href="~/jquery-easyui-1.5.2/themes/icon.css" rel="stylesheet" />
+
+    <script src="~/jquery-easyui-1.5.2/jquery.js"></script>
+    <script src="~/jquery-easyui-1.5.2/jquery.easyui.js"></script>
+    <script src="~/jquery-easyui-1.5.2/locale/easyui-lang-zh_CN.js"></script>*@
+    
+
+    @*@Scripts.Render("~/bundles/modernizr")*@
+
+    @Scripts.Render("~/EasyUI/js")
+
+    @Styles.Render("~/EasyUI/css")
+    
+    
+</head>
+<body>
+    <h2>base dialog</h2>
+    <a href="javascript:void(0)"  class="easyui-linkbutton" onclick="$('#dia').dialog('open')">open</a>
+
+    <div id="dia"></div>
+
+    <script>
+
+
+        $('#dia').dialog(
+                            {
+                                title: 'My Dailog',
+                                width: '400px',
+                                height: '200px'
+                            }
+                            );
+
+        $('#dia').dialog('refresh', '/User/GetUser');
+    </script>
+</body>
+</html>

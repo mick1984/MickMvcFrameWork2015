@@ -1,0 +1,71 @@
+﻿@model MisBase.Users.Rights
+
+@{
+    Layout = null;
+}
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
+
+@Scripts.Render("~/bundles/modernizr")
+
+@Scripts.Render("~/EasyUI/js")
+
+@Styles.Render("~/EasyUI/css")
+
+<h2>AddRight</h2>
+
+<script>
+    $(document).ready(function () {
+        //提交按钮单击
+        $('#btnSubmit').click(function () {
+
+            var d = {};
+            d["data.RightID"] = $('#txtRightID').val();
+            d["data.RightName"] = $('#txtRightName').val();
+            d["data.RightUrl"] = $('#txtRightUrl').val();
+            d["data.RightDesc"] = $('#txtRightDesc').val();
+
+            $.ajax({
+                type: 'post',
+                url: '/User/AddRight2',
+                data: d,
+                success:function(data)
+                {
+                    var strs = data.split(';');
+                    if (strs[0] = 'ok')
+                        alert(strs[0]);
+                    else alert(data);
+                },
+                error: function (xhr, status, error) {
+                    alert("发生功能性错误。");
+                }
+            });
+        });
+    });
+</script>
+
+@using (Html.BeginForm())
+{
+    <text>权限ID：</text>
+    <input id="txtRightID" name="RightID" class="easyui-textbox" value="@Model.RightID" readonly="readonly" />
+        <br />
+        <br />
+
+    <text>权限名称：</text>
+    <input id="txtRightName" name="RightName" class="easyui-textbox" style="width:150px" value="@Model.RightName" />
+    <br />
+    <br />
+
+        <text>权限对应相对URL:</text>
+        <input id="txtRightUrl" name="RightUrl" class="easyui-textbox" style="width:600px" value="@Model.RightUrl" />
+        <br />
+        <br />
+
+        <text>权限具体描述：</text>
+        <input id="txtRightDesc" name="RightDesc" class="easyui-textbox" multiline="true" style="width:400px;height:250px" value="@Model.RightDesc" />
+        <br />
+        <br />
+
+        <input id="btnSubmit" type="button" value="提交" />
+}

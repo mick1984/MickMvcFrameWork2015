@@ -1,0 +1,193 @@
+﻿@model MickUserFrameWork.Models.RoleRightList
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = null;
+}
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
+
+@Scripts.Render("~/bundles/modernizr")
+
+@Scripts.Render("~/EasyUI/js")
+
+@Styles.Render("~/EasyUI/css")
+
+<script>
+
+    $(document).ready(
+        function () {
+            //btn的单击事件
+            $('#btn').click(function () {
+
+                //alert('test');
+
+                var data = $('#dl').datalist('getRows');
+
+                //document.getElementById("RoleID").value = JSON.stringify(data);
+
+                //选择第0行、第1行
+                $('#dl').datalist('selectRow', 0);
+                $('#dl').datalist('selectRow', 1);
+
+                alert(JSON.stringify(data[0]));
+
+            });
+
+            //btnSubmit的提交事件
+            $('#btnSubmit').click(function () {
+
+                var d = {};
+                //获取check了的记录
+                var dldata = $('#dl').datalist('getChecked');
+
+                //alert(JSON.stringify(dldata));
+
+                var cbvalue = $('#cb').combobox('getValue');
+                if (cbvalue == '')
+                {
+                    alert('请选择一个角色');
+                    return "请选择一个角色";
+                }
+                
+                d["data.RoleID"] = $('#cb').combobox('getValue');
+
+                //alert(('#cb').combobox('getValues'));
+
+                //alert(d["data.RoleID"]);
+
+                for (var i = 0; i < dldata.length; i++) {
+                    d["data.RightIDList[" + i + "]"] = dldata[i].RightID;
+                }
+
+                //d["data.RoleID"] = "002";
+                //d["data.RightIDList[0]"] = "a01";
+                //d["data.RightIDList[1]"] = "a02";
+                //d["data.RightIDList[2]"] = "a03";
+
+                //{ "RoleID": "002", "RightIDList": ["a01", "a02", "a03"] }
+
+                $.ajax({
+                    type: 'post',
+                    dataType: "json",
+                    url: '/User/SetRoleRight2',
+                    data: d,
+                    success: function (data) {
+                        //var o = JSON.stringify(data);
+                        //$('#RoleID').val(o);
+                        alert('提交成功');
+                        //alert(o);
+                    },
+                    error: function (xhr, status, error) {
+                        alert("发生错误。");
+                    }
+
+                });
+            });
+
+            //cb的选择事件
+            $('#cb').combobox({
+                onSelect: function (record) {
+
+                    $.ajax({
+                        type: 'post',
+                        url: '/User/GetRightsByRoleID?roleID=' + record.RoleID,                        
+                        success:function(data)
+                        {
+                            //var o = JSON.stringify(data);
+                            var o = data;
+                            var s = "";
+                            
+
+                            var dldata = $('#dl').datalist('getRows');
+
+                            //先全部取消选择
+                            $('#dl').datalist('unselectAll');
+
+                            //逐个选择
+                            for (var j = 0; j < dldata.length; j++)
+                            {
+                                for (var i = 0; i < o.length; i++)
+                                {
+                                    if(dldata[j].RightName==data[i].RightName)
+                                    {
+                                        $('#dl').datalist('selectRow', j);
+                                    }
+                                }
+                            }
+
+                            //alert(s);
+                        }
+                    });
+
+                    //alert(record.RoleName);
+                    //alert($('#cb').textField);
+                }
+            });
+
+        });
+
+    function abc()
+    {
+        var str = "abc";
+
+        var str = "{ 'title': 'test', 'sub': [1, 2, 3] }";
+
+        document.getElementById("RoleID").value = str;
+
+        return str;
+    }
+    
+
+    //$(function () {
+    //    $('#btn').click(function () {
+    //        //url不区分大小写
+    //        var form = new Object();
+    //        var data = "{ 'title': 'test', 'sub': [1, 2, 3] }";
+
+    //        form["data"] = data;
+
+    //        $.post("/User/SetRoleRight", form, function (rsp) {
+
+    //        }, "JSON");
+    //    });
+
+
+    //});
+</script>
+
+<h2>SetRoleRight</h2>
+
+@using (Html.BeginForm())
+{
+    <text>显示MODEL值：</text>
+    <input id="RoleID" type="text" name="RoleID" value="@Model.RoleID" />
+    <br />
+
+    <text>选择角色：</text>
+    <input id="cb" class="easyui-combobox" name="cb"
+           data-options="url:'/User/GetRolesComboBox',method:'get',valueField:'RoleID',textField:'RoleName',required:true" />
+
+    <br />
+    <text>权限列表：</text>
+    <input id="dl" class="easyui-datalist" name="dl" style="height:200px"
+       data-options="url:'/User/GetRights',
+                     method:'get',
+                     valueField:'RightID',
+                     textField:'RightName',
+                     checkbox:true,
+                     checked:true,
+                     selectOnCheck:true,
+                     singleSelect: false" />
+
+
+    <br />    
+
+    <input type="button" value="提交" id="btnSubmit" />
+
+    <input type="button" value="测试" id="btn" />
+
+
+}
+

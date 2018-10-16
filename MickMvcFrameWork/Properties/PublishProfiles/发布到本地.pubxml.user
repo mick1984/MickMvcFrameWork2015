@@ -1,0 +1,1894 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\MickMvcFrameWork</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>04/21/2017 08:43:15</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.AspNet.dll">
+      <publishTime>04/21/2017 08:43:14</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.Core.dll">
+      <publishTime>04/21/2017 08:43:14</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.Consumer.dll">
+      <publishTime>04/21/2017 08:43:15</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.dll">
+      <publishTime>04/21/2017 08:43:15</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.dll">
+      <publishTime>04/21/2017 08:43:15</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.RelyingParty.dll">
+      <publishTime>04/21/2017 08:43:15</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/21/2017 08:43:05</publishTime>
+    </File>
+    <File Include="bin/MickMvcFrameWork.dll">
+      <publishTime>09/05/2018 10:37:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/21/2017 08:43:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.WebPages.OAuth.dll">
+      <publishTime>04/21/2017 08:43:14</publishTime>
+    </File>
+    <File Include="bin/MisBase2015.DataAccess.dll">
+      <publishTime>09/04/2018 10:10:27</publishTime>
+    </File>
+    <File Include="bin/MisBase2015.dll">
+      <publishTime>08/21/2018 15:20:04</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/21/2017 08:43:12</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>07/07/2015 00:51:38</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>04/21/2017 08:43:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>04/21/2017 08:43:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>04/21/2017 08:43:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>04/21/2017 08:43:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>04/21/2017 08:43:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>04/21/2017 08:43:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>04/21/2017 08:43:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>04/21/2017 08:43:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>04/21/2017 08:43:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>04/21/2017 08:43:12</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>04/21/2017 08:43:15</publishTime>
+    </File>
+    <File Include="bin/WebMatrix.Data.dll">
+      <publishTime>04/21/2017 08:43:14</publishTime>
+    </File>
+    <File Include="bin/WebMatrix.WebData.dll">
+      <publishTime>04/21/2017 08:43:14</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/EntityFramework.resources.dll">
+      <publishTime>04/21/2017 08:43:18</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Web.WebPages.OAuth.resources.dll">
+      <publishTime>04/21/2017 08:43:17</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Net.Http.Formatting.resources.dll">
+      <publishTime>04/21/2017 08:43:17</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Helpers.resources.dll">
+      <publishTime>04/21/2017 08:43:16</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.resources.dll">
+      <publishTime>04/21/2017 08:43:16</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.WebHost.resources.dll">
+      <publishTime>04/21/2017 08:43:17</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Mvc.resources.dll">
+      <publishTime>04/21/2017 08:43:16</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Optimization.resources.dll">
+      <publishTime>04/21/2017 08:43:17</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Razor.resources.dll">
+      <publishTime>04/21/2017 08:43:16</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>04/21/2017 08:43:16</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>04/21/2017 08:43:16</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.resources.dll">
+      <publishTime>04/21/2017 08:43:16</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/WebMatrix.Data.resources.dll">
+      <publishTime>04/21/2017 08:43:17</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/WebMatrix.WebData.resources.dll">
+      <publishTime>04/21/2017 08:43:18</publishTime>
+    </File>
+    <File Include="Content/menu.json">
+      <publishTime>08/14/2018 11:14:35</publishTime>
+    </File>
+    <File Include="Content/normalize.css">
+      <publishTime>03/18/2014 11:27:32</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>05/26/2017 11:24:29</publishTime>
+    </File>
+    <File Include="Content/Site2.css">
+      <publishTime>08/07/2018 10:59:56</publishTime>
+    </File>
+    <File Include="Content/style.css">
+      <publishTime>03/18/2014 11:27:32</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_222222_256x240.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_454545_256x240.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_888888_256x240.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery-ui.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.accordion.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.all.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.autocomplete.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.base.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.button.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.core.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.datepicker.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.dialog.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.progressbar.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.resizable.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.selectable.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.slider.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.tabs.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.theme.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_222222_256x240.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_454545_256x240.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_888888_256x240.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery-ui.min.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.accordion.min.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.autocomplete.min.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.button.min.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.core.min.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.datepicker.min.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.dialog.min.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.progressbar.min.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.resizable.min.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.selectable.min.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.slider.min.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.tabs.min.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.theme.min.css">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Images/accent.png">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Images/bullet.png">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Images/heroAccent.png">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Images/orderedList0.png">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Images/orderedList1.png">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Images/orderedList2.png">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Images/orderedList3.png">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Images/orderedList4.png">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Images/orderedList5.png">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Images/orderedList6.png">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Images/orderedList7.png">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Images/orderedList8.png">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Images/orderedList9.png">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/changelog.txt">
+      <publishTime>04/12/2017 23:12:54</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/easyloader.js">
+      <publishTime>04/12/2017 23:13:43</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/jquery.easyui.js">
+      <publishTime>04/12/2017 23:13:45</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/jquery.easyui.min.js">
+      <publishTime>04/12/2017 23:13:45</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/jquery.easyui.mobile.js">
+      <publishTime>04/12/2017 23:13:43</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/jquery.js">
+      <publishTime>06/18/2015 10:18:05</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/jquery.min.js">
+      <publishTime>06/18/2015 10:18:05</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/license_freeware.txt">
+      <publishTime>10/26/2015 10:31:14</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-af.js">
+      <publishTime>04/05/2016 10:04:38</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-am.js">
+      <publishTime>04/05/2016 10:04:55</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-ar.js">
+      <publishTime>04/05/2016 10:06:53</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-bg.js">
+      <publishTime>04/05/2016 10:06:53</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-ca.js">
+      <publishTime>04/05/2016 10:06:53</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-cs.js">
+      <publishTime>04/05/2016 10:06:53</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-cz.js">
+      <publishTime>04/05/2016 10:06:53</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-da.js">
+      <publishTime>04/05/2016 10:06:53</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-de.js">
+      <publishTime>04/05/2016 10:06:53</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-el.js">
+      <publishTime>04/05/2016 10:06:53</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-en.js">
+      <publishTime>04/05/2016 10:06:53</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-es.js">
+      <publishTime>04/05/2016 10:06:53</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-fr.js">
+      <publishTime>04/05/2016 10:06:53</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-it.js">
+      <publishTime>07/08/2016 09:37:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-jp.js">
+      <publishTime>04/05/2016 10:06:53</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-ko.js">
+      <publishTime>04/05/2016 10:06:53</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-nl.js">
+      <publishTime>04/05/2016 10:06:53</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-pl.js">
+      <publishTime>04/05/2016 10:07:51</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-pt_BR.js">
+      <publishTime>04/05/2016 10:07:51</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-ru.js">
+      <publishTime>04/05/2016 10:07:51</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-sv_SE.js">
+      <publishTime>04/05/2016 10:07:51</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-tr.js">
+      <publishTime>04/05/2016 10:07:51</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-zh_CN.js">
+      <publishTime>04/05/2016 10:07:51</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/locale/easyui-lang-zh_TW.js">
+      <publishTime>04/05/2016 10:07:51</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.accordion.js">
+      <publishTime>04/12/2017 23:13:29</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.calendar.js">
+      <publishTime>04/12/2017 23:13:29</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.combo.js">
+      <publishTime>04/12/2017 23:13:29</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.combobox.js">
+      <publishTime>04/12/2017 23:13:29</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.combogrid.js">
+      <publishTime>04/12/2017 23:13:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.combotree.js">
+      <publishTime>04/12/2017 23:13:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.combotreegrid.js">
+      <publishTime>04/12/2017 23:13:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.datagrid.js">
+      <publishTime>04/12/2017 23:13:31</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.datalist.js">
+      <publishTime>04/12/2017 23:13:31</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.datebox.js">
+      <publishTime>04/12/2017 23:13:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.datetimebox.js">
+      <publishTime>04/12/2017 23:13:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.datetimespinner.js">
+      <publishTime>04/12/2017 23:13:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.dialog.js">
+      <publishTime>04/12/2017 23:13:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.draggable.js">
+      <publishTime>04/12/2017 23:13:33</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.droppable.js">
+      <publishTime>04/12/2017 23:13:33</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.filebox.js">
+      <publishTime>04/12/2017 23:13:33</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.form.js">
+      <publishTime>04/12/2017 23:13:33</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.layout.js">
+      <publishTime>04/12/2017 23:13:34</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.linkbutton.js">
+      <publishTime>04/12/2017 23:13:34</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.menu.js">
+      <publishTime>04/12/2017 23:13:34</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.menubutton.js">
+      <publishTime>04/12/2017 23:13:35</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.messager.js">
+      <publishTime>04/12/2017 23:13:35</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.mobile.js">
+      <publishTime>04/12/2017 23:13:35</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.numberbox.js">
+      <publishTime>04/12/2017 23:13:35</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.numberspinner.js">
+      <publishTime>04/12/2017 23:13:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.pagination.js">
+      <publishTime>04/12/2017 23:13:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.panel.js">
+      <publishTime>04/12/2017 23:13:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.parser.js">
+      <publishTime>04/12/2017 23:13:37</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.passwordbox.js">
+      <publishTime>04/12/2017 23:13:37</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.progressbar.js">
+      <publishTime>04/12/2017 23:13:37</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.propertygrid.js">
+      <publishTime>04/12/2017 23:13:38</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.resizable.js">
+      <publishTime>04/12/2017 23:13:38</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.searchbox.js">
+      <publishTime>04/12/2017 23:13:38</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.slider.js">
+      <publishTime>04/12/2017 23:13:38</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.spinner.js">
+      <publishTime>04/12/2017 23:13:39</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.splitbutton.js">
+      <publishTime>04/12/2017 23:13:39</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.switchbutton.js">
+      <publishTime>04/12/2017 23:13:39</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.tabs.js">
+      <publishTime>04/12/2017 23:13:40</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.tagbox.js">
+      <publishTime>04/12/2017 23:13:40</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.textbox.js">
+      <publishTime>04/12/2017 23:13:40</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.timespinner.js">
+      <publishTime>04/12/2017 23:13:41</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.tooltip.js">
+      <publishTime>04/12/2017 23:13:41</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.tree.js">
+      <publishTime>04/12/2017 23:13:41</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.treegrid.js">
+      <publishTime>04/12/2017 23:13:42</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.validatebox.js">
+      <publishTime>04/12/2017 23:13:42</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/plugins/jquery.window.js">
+      <publishTime>04/12/2017 23:13:43</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/readme.txt">
+      <publishTime>04/05/2017 09:21:56</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/easyloader.js">
+      <publishTime>04/12/2017 23:13:43</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.accordion.js">
+      <publishTime>04/12/2017 23:13:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.calendar.js">
+      <publishTime>04/12/2017 23:13:29</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.combobox.js">
+      <publishTime>04/12/2017 23:13:29</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.datebox.js">
+      <publishTime>04/12/2017 23:13:31</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.draggable.js">
+      <publishTime>04/12/2017 23:13:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.droppable.js">
+      <publishTime>04/12/2017 23:13:33</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.form.js">
+      <publishTime>04/12/2017 23:13:33</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.linkbutton.js">
+      <publishTime>04/12/2017 23:13:34</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.menu.js">
+      <publishTime>04/12/2017 23:13:34</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.parser.js">
+      <publishTime>04/12/2017 23:13:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.progressbar.js">
+      <publishTime>04/12/2017 23:13:37</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.propertygrid.js">
+      <publishTime>04/12/2017 23:13:37</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.resizable.js">
+      <publishTime>04/12/2017 23:13:38</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.slider.js">
+      <publishTime>04/12/2017 23:13:38</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.tabs.js">
+      <publishTime>04/12/2017 23:13:39</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/src/jquery.window.js">
+      <publishTime>04/12/2017 23:13:42</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/accordion.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/calendar.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/combo.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/combobox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/datagrid.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/datalist.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/datebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/dialog.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/easyui.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/filebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/accordion_arrows.png">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/blank.gif">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/calendar_arrows.png">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/combo_arrow.png">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/datagrid_icons.png">
+      <publishTime>08/30/2015 20:54:23</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/datebox_arrow.png">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/layout_arrows.png">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/linkbutton_bg.png">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/loading.gif">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/menu_arrows.png">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/messager_icons.png">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/pagination_icons.png">
+      <publishTime>06/27/2013 23:33:08</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/panel_tools.png">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/passwordbox_close.png">
+      <publishTime>04/02/2016 10:14:12</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/passwordbox_open.png">
+      <publishTime>04/02/2016 10:12:33</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/searchbox_button.png">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/slider_handle.png">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/spinner_arrows.png">
+      <publishTime>07/09/2016 10:37:59</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/tabs_icons.png">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/tagbox_icons.png">
+      <publishTime>09/24/2016 07:46:56</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/tree_icons.png">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/images/validatebox_warning.png">
+      <publishTime>01/04/2013 10:37:36</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/layout.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/linkbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/menu.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/menubutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/messager.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/numberbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/pagination.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/panel.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/passwordbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/progressbar.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/propertygrid.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/searchbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/slider.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/spinner.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/splitbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/switchbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/tabs.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/tagbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/textbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/tooltip.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/tree.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/validatebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/black/window.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/accordion.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/calendar.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/combo.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/combobox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/datagrid.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/datalist.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/datebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/dialog.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/easyui.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/filebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/accordion_arrows.png">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/blank.gif">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/calendar_arrows.png">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/combo_arrow.png">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/datagrid_icons.png">
+      <publishTime>08/30/2015 21:18:21</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/datebox_arrow.png">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/layout_arrows.png">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/linkbutton_bg.png">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/loading.gif">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/menu_arrows.png">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/messager_icons.png">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/pagination_icons.png">
+      <publishTime>06/27/2013 23:24:42</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/panel_tools.png">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/passwordbox_close.png">
+      <publishTime>04/02/2016 09:44:06</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/passwordbox_open.png">
+      <publishTime>04/02/2016 09:30:19</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/searchbox_button.png">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/slider_handle.png">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/spinner_arrows.png">
+      <publishTime>07/09/2016 10:39:08</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/tabs_icons.png">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/tagbox_icons.png">
+      <publishTime>08/31/2016 16:36:59</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/tree_icons.png">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/images/validatebox_warning.png">
+      <publishTime>01/04/2013 10:38:28</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/layout.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/linkbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/menu.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/menubutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/messager.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/numberbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/pagination.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/panel.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/passwordbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/progressbar.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/propertygrid.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/searchbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/slider.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/spinner.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/splitbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/switchbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/tabs.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/tagbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/textbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/tooltip.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/tree.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/validatebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/bootstrap/window.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/color.css">
+      <publishTime>03/15/2016 11:44:29</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/accordion.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/calendar.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/combo.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/combobox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/datagrid.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/datalist.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/datebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/dialog.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/easyui.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/filebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/accordion_arrows.png">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/blank.gif">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/calendar_arrows.png">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/combo_arrow.png">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/datagrid_icons.png">
+      <publishTime>08/30/2015 21:18:21</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/datebox_arrow.png">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/layout_arrows.png">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/linkbutton_bg.png">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/loading.gif">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/menu_arrows.png">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/messager_icons.png">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/pagination_icons.png">
+      <publishTime>06/27/2013 23:24:42</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/panel_tools.png">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/passwordbox_close.png">
+      <publishTime>04/02/2016 09:44:06</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/passwordbox_open.png">
+      <publishTime>04/02/2016 09:30:19</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/searchbox_button.png">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/slider_handle.png">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/spinner_arrows.png">
+      <publishTime>07/09/2016 10:25:19</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/tabs_icons.png">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/tagbox_icons.png">
+      <publishTime>08/31/2016 16:36:59</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/tree_icons.png">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/images/validatebox_warning.png">
+      <publishTime>12/18/2012 16:42:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/layout.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/linkbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/menu.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/menubutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/messager.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/numberbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/pagination.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/panel.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/passwordbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/progressbar.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/propertygrid.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/searchbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/slider.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/spinner.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/splitbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/switchbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/tabs.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/tagbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/textbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/tooltip.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/tree.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/validatebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/default/window.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/accordion.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/calendar.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/combo.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/combobox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/datagrid.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/datalist.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/datebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/dialog.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/easyui.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/filebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/accordion_arrows.png">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/blank.gif">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/calendar_arrows.png">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/combo_arrow.png">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/datagrid_icons.png">
+      <publishTime>08/30/2015 21:19:37</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/datebox_arrow.png">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/layout_arrows.png">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/linkbutton_bg.png">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/loading.gif">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/menu_arrows.png">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/messager_icons.png">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/pagination_icons.png">
+      <publishTime>06/27/2013 23:29:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/panel_tools.png">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/passwordbox_close.png">
+      <publishTime>04/02/2016 10:14:12</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/passwordbox_open.png">
+      <publishTime>04/02/2016 10:12:33</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/searchbox_button.png">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/slider_handle.png">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/spinner_arrows.png">
+      <publishTime>07/09/2016 10:35:40</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/tabs_icons.png">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/tagbox_icons.png">
+      <publishTime>09/23/2016 08:39:46</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/tree_icons.png">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/images/validatebox_warning.png">
+      <publishTime>12/18/2012 16:44:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/layout.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/linkbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/menu.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/menubutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/messager.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/numberbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/pagination.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/panel.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/passwordbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/progressbar.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/propertygrid.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/searchbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/slider.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/spinner.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/splitbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/switchbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/tabs.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/tagbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/textbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/tooltip.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/tree.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/validatebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/gray/window.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icon.css">
+      <publishTime>03/05/2015 13:13:43</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/back.png">
+      <publishTime>12/15/2009 17:59:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/blank.gif">
+      <publishTime>01/11/2011 16:46:22</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/cancel.png">
+      <publishTime>12/15/2009 17:59:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/clear.png">
+      <publishTime>05/07/2014 08:30:05</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/cut.png">
+      <publishTime>12/15/2009 17:59:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/edit_add.png">
+      <publishTime>12/15/2009 17:59:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/edit_remove.png">
+      <publishTime>12/15/2009 17:59:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/filesave.png">
+      <publishTime>12/15/2009 17:59:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/filter.png">
+      <publishTime>11/04/2013 16:53:10</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/help.png">
+      <publishTime>12/15/2009 17:59:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/large_chart.png">
+      <publishTime>03/26/2014 10:27:09</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/large_clipart.png">
+      <publishTime>03/26/2014 10:24:56</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/large_picture.png">
+      <publishTime>03/26/2014 10:23:33</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/large_shapes.png">
+      <publishTime>03/26/2014 10:26:52</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/large_smartart.png">
+      <publishTime>03/26/2014 10:26:52</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/lock.png">
+      <publishTime>04/23/2014 16:49:26</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/man.png">
+      <publishTime>04/23/2014 16:40:03</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/mini_add.png">
+      <publishTime>11/15/2011 10:58:04</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/mini_edit.png">
+      <publishTime>11/15/2011 13:55:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/mini_refresh.png">
+      <publishTime>11/15/2011 13:56:18</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/more.png">
+      <publishTime>06/15/2013 21:25:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/no.png">
+      <publishTime>12/15/2009 17:59:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/ok.png">
+      <publishTime>12/15/2009 17:59:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/pencil.png">
+      <publishTime>01/19/2010 11:56:24</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/print.png">
+      <publishTime>12/15/2009 17:59:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/redo.png">
+      <publishTime>12/15/2009 17:59:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/reload.png">
+      <publishTime>12/15/2009 17:59:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/search.png">
+      <publishTime>12/15/2009 17:59:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/sum.png">
+      <publishTime>01/24/2011 11:43:10</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/tip.png">
+      <publishTime>06/30/2011 16:09:26</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/icons/undo.png">
+      <publishTime>12/15/2009 17:59:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/accordion.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/calendar.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/combo.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/combobox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/datagrid.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/datalist.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/datebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/dialog.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/easyui.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/filebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/accordion_arrows.png">
+      <publishTime>12/08/2012 14:13:08</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/blank.gif">
+      <publishTime>01/11/2011 16:46:22</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/calendar_arrows.png">
+      <publishTime>11/02/2012 14:37:18</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/combo_arrow.png">
+      <publishTime>12/10/2012 10:22:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/datagrid_icons.png">
+      <publishTime>08/30/2015 21:19:37</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/datebox_arrow.png">
+      <publishTime>11/18/2010 15:57:54</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/layout_arrows.png">
+      <publishTime>12/08/2012 14:49:48</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/linkbutton_bg.png">
+      <publishTime>12/10/2012 19:34:58</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/loading.gif">
+      <publishTime>06/12/2010 14:14:14</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/menu_arrows.png">
+      <publishTime>12/10/2012 21:20:50</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/messager_icons.png">
+      <publishTime>12/06/2012 14:39:10</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/pagination_icons.png">
+      <publishTime>06/27/2013 23:29:30</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/panel_tools.png">
+      <publishTime>12/08/2012 14:38:46</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/passwordbox_close.png">
+      <publishTime>04/02/2016 10:14:12</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/passwordbox_open.png">
+      <publishTime>04/02/2016 10:12:33</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/searchbox_button.png">
+      <publishTime>09/25/2004 19:39:32</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/slider_handle.png">
+      <publishTime>03/16/2012 10:48:08</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/spinner_arrows.png">
+      <publishTime>07/09/2016 10:35:40</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/tabs_icons.png">
+      <publishTime>12/13/2012 11:36:08</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/tagbox_icons.png">
+      <publishTime>09/23/2016 08:39:46</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/Thumbs.db">
+      <publishTime>06/12/2010 14:14:14</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/tree_icons.png">
+      <publishTime>12/13/2012 17:22:26</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/images/validatebox_warning.png">
+      <publishTime>06/12/2010 14:14:14</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/layout.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/linkbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/menu.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/menubutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/messager.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/numberbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/pagination.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/panel.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/passwordbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/progressbar.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/propertygrid.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/searchbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/slider.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/spinner.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/splitbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/switchbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/tabs.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/tagbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/textbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/tooltip.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/tree.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/validatebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/material/window.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/accordion.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/calendar.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/combo.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/combobox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/datagrid.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/datalist.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/datebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/dialog.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/easyui.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/filebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/accordion_arrows.png">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/blank.gif">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/calendar_arrows.png">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/combo_arrow.png">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/datagrid_icons.png">
+      <publishTime>08/30/2015 21:18:21</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/datebox_arrow.png">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/layout_arrows.png">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/linkbutton_bg.png">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/loading.gif">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/menu_arrows.png">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/messager_icons.png">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/pagination_icons.png">
+      <publishTime>06/27/2013 23:24:42</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/panel_tools.png">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/passwordbox_close.png">
+      <publishTime>04/02/2016 09:44:06</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/passwordbox_open.png">
+      <publishTime>04/02/2016 09:30:19</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/searchbox_button.png">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/slider_handle.png">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/spinner_arrows.png">
+      <publishTime>07/09/2016 10:39:08</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/tabs_icons.png">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/tagbox_icons.png">
+      <publishTime>08/31/2016 16:36:59</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/tree_icons.png">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/images/validatebox_warning.png">
+      <publishTime>12/18/2012 16:45:00</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/layout.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/linkbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/menu.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/menubutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/messager.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/numberbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/pagination.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/panel.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/passwordbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/progressbar.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/propertygrid.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/searchbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/slider.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/spinner.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/splitbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/switchbutton.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/tabs.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/tagbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/textbox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/tooltip.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/tree.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/validatebox.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/metro/window.css">
+      <publishTime>04/06/2017 15:18:20</publishTime>
+    </File>
+    <File Include="jquery-easyui-1.5.2/themes/mobile.css">
+      <publishTime>07/11/2016 15:26:56</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/21/2017 08:43:18</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>04/21/2017 08:43:09</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>04/21/2017 08:43:09</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.0.min.js">
+      <publishTime>04/06/2017 16:12:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.20.js">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.20.min.js">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>04/21/2017 08:43:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>04/21/2017 08:43:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.1.0.debug.js">
+      <publishTime>04/21/2017 08:43:16</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.1.0.js">
+      <publishTime>04/21/2017 08:43:16</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.5.3.js">
+      <publishTime>04/21/2017 08:43:11</publishTime>
+    </File>
+    <File Include="Scripts/popmenu.js">
+      <publishTime>03/18/2014 11:27:32</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>04/21/2017 08:43:09</publishTime>
+    </File>
+    <File Include="Views/EasyUITest/DataGrid.cshtml">
+      <publishTime>05/15/2018 15:13:05</publishTime>
+    </File>
+    <File Include="Views/EasyUITest/DateBox.cshtml">
+      <publishTime>07/25/2017 09:02:13</publishTime>
+    </File>
+    <File Include="Views/EasyUITest/Dialog.cshtml">
+      <publishTime>09/04/2018 14:50:25</publishTime>
+    </File>
+    <File Include="Views/EasyUITest/Index.cshtml">
+      <publishTime>07/25/2017 09:02:19</publishTime>
+    </File>
+    <File Include="Views/Mobile/DataList.cshtml">
+      <publishTime>09/05/2018 10:33:41</publishTime>
+    </File>
+    <File Include="Views/Mobile/DataList.Mobile.cshtml">
+      <publishTime>09/05/2018 10:20:55</publishTime>
+    </File>
+    <File Include="Views/Mobile/Index.cshtml">
+      <publishTime>09/05/2018 09:43:29</publishTime>
+    </File>
+    <File Include="Views/ModelTest/Index.cshtml">
+      <publishTime>06/21/2017 14:40:46</publishTime>
+    </File>
+    <File Include="Views/ModelTest/Index2.cshtml">
+      <publishTime>06/28/2017 16:43:11</publishTime>
+    </File>
+    <File Include="Views/ModelTest/Index3.cshtml">
+      <publishTime>06/28/2017 16:54:38</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Views/Shared/GuideBar.cshtml">
+      <publishTime>07/07/2017 16:29:01</publishTime>
+    </File>
+    <File Include="Views/Shared/Result.cshtml">
+      <publishTime>06/16/2017 10:53:45</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>08/10/2018 14:19:08</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>06/09/2017 10:50:51</publishTime>
+    </File>
+    <File Include="Views/User/AddRight.cshtml">
+      <publishTime>08/15/2018 10:47:01</publishTime>
+    </File>
+    <File Include="Views/User/GetUser.cshtml">
+      <publishTime>08/15/2018 10:47:08</publishTime>
+    </File>
+    <File Include="Views/User/Index.cshtml">
+      <publishTime>08/10/2018 13:22:07</publishTime>
+    </File>
+    <File Include="Views/User/Index2.cshtml">
+      <publishTime>08/14/2018 17:29:27</publishTime>
+    </File>
+    <File Include="Views/User/Login.cshtml">
+      <publishTime>08/15/2018 10:47:16</publishTime>
+    </File>
+    <File Include="Views/User/RoleList.cshtml">
+      <publishTime>08/15/2018 10:47:20</publishTime>
+    </File>
+    <File Include="Views/User/SelectRight.cshtml">
+      <publishTime>09/04/2018 11:32:34</publishTime>
+    </File>
+    <File Include="Views/User/SelectRole.cshtml">
+      <publishTime>08/15/2018 09:30:17</publishTime>
+    </File>
+    <File Include="Views/User/SelectUser.cshtml">
+      <publishTime>08/15/2018 10:12:27</publishTime>
+    </File>
+    <File Include="Views/User/SetRoleRight.cshtml">
+      <publishTime>08/15/2018 10:54:56</publishTime>
+    </File>
+    <File Include="Views/User/UpdateRight.cshtml">
+      <publishTime>08/15/2018 10:31:19</publishTime>
+    </File>
+    <File Include="Views/User/UpdateRole.cshtml">
+      <publishTime>08/14/2018 11:30:10</publishTime>
+    </File>
+    <File Include="Views/User/UpdateUser.cshtml">
+      <publishTime>08/14/2018 17:05:59</publishTime>
+    </File>
+    <File Include="Views/User/UpdateUserRole.cshtml">
+      <publishTime>08/15/2018 10:48:51</publishTime>
+    </File>
+    <File Include="Views/VCTest/Index.cshtml">
+      <publishTime>08/10/2018 14:32:32</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>04/27/2017 16:27:22</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>04/21/2017 08:43:01</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/04/2018 10:10:29</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

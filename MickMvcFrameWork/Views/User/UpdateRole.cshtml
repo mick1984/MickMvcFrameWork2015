@@ -1,0 +1,30 @@
+﻿@model MisBase.Users.Roles
+
+@{
+    ViewBag.Title = "AddRole";
+    Layout = null;
+}
+<h2>AddRole</h2>
+
+@using (Html.BeginForm())
+{   
+    <text>角色ID：</text> 
+    <input id="RoleID" name="RoleID" value="@Model.RoleID" readonly="readonly" />
+    <br />
+
+    <strong style="color:red">角色名称:</strong>
+    <input id="RoleName" name="RoleName" value="@Model.RoleName"/><strong style="color:red">@ViewBag.ErrMsg</strong>
+    <br />
+
+    <strong style="color:red">角色描述:</strong>
+    @Html.TextBoxFor(m=>m.RoleDesc)
+    <br />
+
+    <strong style="color:red">角色等级:</strong>
+    @Html.TextBoxFor(m=>m.RoleLevel)@Html.ValidationMessageFor(m=>m.RoleLevel,"角色等级的值无效，需要为数字")
+    <br />
+        
+    <button>提交</button>
+}
+
+

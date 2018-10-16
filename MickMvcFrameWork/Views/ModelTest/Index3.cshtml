@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Index3";
+}
+
+<h2>Index3</h2>
+
+@using (Html.BeginForm())
+{
+    <input type="text" name="person.FirstName" />
+    <br />
+
+    <input type="text" name="person.LastName" />
+    <br />
+    
+    <input type="text" name="person.HomeAddress.AddressValue" />
+    <br />
+
+    <input type="submit" value="提交" />
+}
+
+@if (TempData.ContainsKey("msg"))
+    {
+        <p>
+            @TempData["msg"].ToString()
+        </p>
+    }
+
+

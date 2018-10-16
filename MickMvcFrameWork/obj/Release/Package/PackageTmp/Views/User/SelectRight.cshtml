@@ -1,0 +1,90 @@
+﻿@{
+    ViewBag.Title = "SelectRight";
+    Layout = null;
+}
+
+<h2>SelectRight</h2>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
+
+@Scripts.Render("~/bundles/modernizr")
+
+@Scripts.Render("~/EasyUI/js")
+
+@Styles.Render("~/EasyUI/css")
+
+<script>
+    $(document).ready(function () {
+
+    });
+
+    function formatUpdate(val, row) {
+
+        return "<a href='#' class='easyui-linkbutton' onclick='showDialogUpdate(\"/User/UpdateRight?rightID=" + row.RightID + "\");'>修改</a>";
+
+    }
+
+    function showDialogUpdate(url) {
+        $('#dialog').dialog({
+            title: 'My Dialog',
+            width: 700,
+            height: 500,
+            closed: false,
+            cache: false,
+            href: url,
+            modal: true,
+            resizable: true
+        });
+    }
+
+    function formatDelete(val, row, index) {
+
+
+        return "<a href='#' class='easyui-linkbutton' onclick='showDialogDelete(" + index + "," + JSON.stringify(row) + ");'>删除</a>";
+
+    }
+
+    function showDialogDelete(index, row) {
+        //index = $('#dg').datagrid('getRowIndex', row);
+        //alert(row.UserName);
+
+        $.messager.confirm('confirm', '是否删除？', function (r) {
+            if (r) {
+
+                //$('#dg').datagrid('deleteRow', index);
+
+                $.ajax({
+                    type: 'post',
+                    url: '/User/DeleteRight?rightID=' + row.RightID,
+                    success: function (data) {
+                        var strs = data.split(';');
+                        if (strs[0] = 'ok')
+                            alert(strs[0]);
+                        else alert(strs[1]);
+                    },
+                    error: function (xhr, status, error) {
+                        alert("发生功能性错误。");
+                    }
+                });
+
+                $('#dg').datagrid('reload');
+            }
+        });
+    }
+</script>
+
+<table id="dg" class="easyui-datagrid" title="选择权限" style="width:700px;height:450px"
+       data-options="rownumbers:true,singleSelect:true,url:'/User/GetRightDataGrid',method:'GET',pagination:false,fitColumns:true">
+    <thead>
+        <tr>
+            <th data-options="field:'RightName'">权限名称</th>
+            <th data-options="field:'RightUrl'">对应URL</th>
+            <th data-options="field:'RightDesc'">描述</th>
+            <th data-options="field:'RightID',formatter:formatUpdate">修改</th>
+            <th data-options="field:'RightID2',formatter:formatDelete">删除</th>
+        </tr>
+    </thead>
+</table>
+
+<div id="dialog"></div>

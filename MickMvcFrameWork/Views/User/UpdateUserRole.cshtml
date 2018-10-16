@@ -1,0 +1,100 @@
+﻿@model List<MisBase.Users.Roles>
+
+@{
+    ViewBag.Title = "UpdateUserRole";
+    Layout = null;
+}
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
+
+@Scripts.Render("~/bundles/modernizr")
+
+@Scripts.Render("~/EasyUI/js")
+
+@Styles.Render("~/EasyUI/css")
+
+<script>
+    $(document).ready(
+        function () {
+
+            //dg的加载成功事件
+            $('#dg').datagrid({
+                onLoadSuccess:function(data)
+                {
+                    $(this).datagrid('selectRow', 0);
+                }
+            });
+
+            //btnSubmit的单击事件
+            $('#btnSubmit').click(function () {
+                var d = {};
+
+
+                var rows = $('#dg').datagrid('getSelections');
+
+                //alert($('#hidUserID').val());
+
+                d["data.UserID"] = $('#hidUserID').val();
+
+                if(rows.length>0)
+                {
+                    for(var i=0;i<rows.length;i++)
+                    {
+                        d["data.RoleIDList["+i+"]"] = rows[i].RoleID;
+                    }
+
+                    $.ajax({
+                        type: 'post',
+                        dataType:"json",
+                        url: '/User/UpdateUserRoles2',
+                        data: d,
+                        success:function(data)
+                        {
+                            //var o = JSON.stringify(data);
+                            //$('#RoleID').val(o);
+                            alert('提交成功');
+                            //alert(o);
+                        },
+                        error:function(xhr,status,error)
+                        {
+                            alert("发生错误。");
+                        }
+              
+                    });
+                }
+                else
+                {
+                    alert("请选择要授予的角色。");
+                }
+            });
+        });
+</script>
+
+<h2>关联用户角色</h2>
+
+对用户 @Session["SelectUserName"] 进行角色授权 
+<br />
+<br />
+
+@using (Html.BeginForm())
+{
+
+    <table id="dg" class="easyui-datagrid" title="选择角色" style="width:700px;"
+           data-options="rownumbers:true,singleSelect:false,url:'/User/GetRoles2',method:'GET',pagination:false,fitColumns:true">
+        <thead>
+            <tr>
+                <th data-options="field:'RoleID'">角色ID</th>
+                <th data-options="field:'RoleName'">角色名称</th>
+                <th data-options="field:'RoleLevel'">角色级别</th>
+                <th data-options="field:'RoleDesc'">角色说明</th>
+            </tr>
+        </thead>
+    </table>
+
+    <br />
+
+    <input type="button" value="提交" id="btnSubmit" />
+
+    <input type="hidden" value="@Session["SelectUserID"]" id="hidUserID" />
+}

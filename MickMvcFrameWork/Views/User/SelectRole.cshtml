@@ -1,0 +1,100 @@
+﻿@{
+    ViewBag.Title = "SelectRole";
+    Layout = null;
+}
+
+<h2>SelectRole</h2>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
+
+@Scripts.Render("~/bundles/modernizr")
+
+@Scripts.Render("~/EasyUI/js")
+
+@Styles.Render("~/EasyUI/css")
+
+<html>
+<head>
+    <script>
+
+        //修改
+        function formatUpdate(val, row) {
+
+            return "<a href='#' class='easyui-linkbutton' onclick='showDialogUpdate(\"/User/UpdateRole/" + row.RoleID + "?updateType=2\");'>修改</a>";
+
+        }
+
+        //修改
+        function showDialogUpdate(url)
+        {
+            $('#dialog').dialog({
+                title: 'My Dialog',
+                width: 700,
+                height: 500,
+                closed: false,
+                cache: false,
+                href: url,
+                modal: true,
+                resizable:true
+            });
+        }
+
+        //删除
+        function formatDelete(val, row) {
+
+            //alert(JSON.stringify(row));
+            return "<a href='#' class='easyui-linkbutton' onclick='showDialogDelete(" + JSON.stringify(row) + ");'>删除</a>";
+
+        }
+
+        //删除
+        function showDialogDelete(row)
+        {
+            $.messager.confirm('confirm', '是否删除？', function (r) {
+                if (r) {
+
+                    //$('#dg').datagrid('deleteRow', index);
+
+                    $.ajax({
+                        type: 'post',
+                        url: '/User/DeleteRole?roleID=' + row.RoleID,
+                        success: function (data) {
+                            var strs = data.split(';');
+                            if (strs[0] = 'ok')
+                                alert(strs[0]);
+                            else alert(data);
+                        },
+                        error: function (xhr, status, error) {
+                            alert("发生功能性错误。");
+                        }
+                    });
+
+                    $('#dg').datagrid('reload');
+                }
+            });
+        }
+    </script>
+
+</head>
+<body>
+    <table id="dg" class="easyui-datagrid" title="选择角色" style="width:700px;height:450px"
+           data-options="rownumbers:true,singleSelect:true,url:'/User/GetRoles',method:'GET',pagination:true,fitColumns:true">
+        <thead>
+            <tr>
+                <th data-options="field:'RoleName'">角色名称</th>
+                <th data-options="field:'RoleLevel'">角色级别</th>
+                <th data-options="field:'RoleDesc'">角色说明</th>
+                <th data-options="field:'RoleID',formatter:formatUpdate">修改</th>
+                <th data-options="field:'RoleID2',formatter:formatDelete">删除</th>
+            </tr>
+        </thead>
+    </table>
+
+    <br />
+    <input type="submit" value="给角色设置权限" />
+
+    <div id="dialog"></div>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - 我的 ASP.NET MVC 应用程序</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link href="~/Content/normalize.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/Site2.css" rel="stylesheet" />
+    @*<script src="~/Scripts/jquery-1.7.1.min.js"></script>*@
+
+    @Scripts.Render("~/bundles/modernizr")
+
+    @Scripts.Render("~/EasyUI/js")
+
+    @Styles.Render("~/EasyUI/css")
+
+</head>
+<body>
+    <table style="border-collapse: collapse;border-spacing: 0;margin-top: 0.75em;border: 1px solid #000000;">
+        <tr style="width:100%">
+            <td style="border-right:solid 2px #c8c8c8;width:100px">
+                <nav>
+                    <ul id="menu">
+                        <li>@Html.ActionLink("主页", "Index", "Home")</li>
+                    </ul>
+                </nav>
+
+                <!-- 菜单  -->
+                <div class="container">
+
+                    <ul>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">用户管理 <i class="icon-arrow"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/User/Login">登录</a></li>
+                                <li><a href="~/User/RoleList">显示角色列表</a></li>
+                                <li><a href="~/User/UpdateRole?updateType=1">增加角色</a></li>
+                                <li><a href="~/User/UpdateUser">增加用户</a></li>
+                                <li><a href="~/User/GetUser">授予用户角色用户角色</a></li>
+                                <li><a href="~/User/AddRight">增加权限</a></li>
+                                <li><a href="~/User/SetRoleRight">关联角色权限</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">其他测试 <i class="icon-arrow"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/VCTest/Index">首页</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">Third Menu <i class="icon-arrow"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </td>
+            <td>
+                @RenderBody()
+            </td>
+        </tr>
+    </table>
+
+    @*@Scripts.Render("~/bundles/jquery")*@
+    @RenderSection("scripts", required: false)
+
+    <!-- 菜单的javascript脚本需要在body中引用 -->
+
+    <script src="~/Scripts/popmenu.js"></script>
+
+</body>
+</html>

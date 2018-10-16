@@ -1,0 +1,51 @@
+﻿@model MisBase.Users.UserRegister
+
+@{
+    ViewBag.Title = "UpdateUser";
+    Layout = null;
+}
+
+<h2>UpdateUser</h2>
+
+@using (Html.BeginForm())
+{
+    <text>用户ID：</text>
+    <input id="tb" name="UserID" class="easyui-textbox" value="@Model.UserID" readonly="true" />
+    <br />
+    
+    <strong style="color:red">用户名称：</strong>
+    @Html.TextBoxFor(m=>m.UserName)
+    <br />
+    
+    <strong style="color:red">用户账号：</strong>
+    @Html.TextBoxFor(m=>m.UserAccount)
+    <strong style="color:red">@ViewBag.ErrMsg</strong>
+    <br />
+    
+    <text>证件号码：</text>
+    @Html.TextBoxFor(m=>m.UserCertNo)
+    <br />
+    
+    <text>证件类型：</text>
+    @Html.TextBoxFor(m=>m.UserCertType)
+    <br />
+    
+    <text>联系电话：</text>
+    @Html.TextBoxFor(m=>m.UserPhone)
+    <br />
+    
+    <strong style="color:red">密码：</strong>
+    @Html.PasswordFor(m=>m.UserPwd)
+    <br />
+    
+    <strong style="color:red">密码确认：</strong>
+    @Html.PasswordFor(m => m.UserPwdConfirm)
+    @Html.ValidationMessageFor(m=>m.UserPwdConfirm)
+    <br />
+    
+    <text>所属网点：</text>
+    @Html.TextBoxFor(m=>m.UserUnit)
+    <br />
+    
+    <button onclick="return confirm('是否提交');">提交</button>
+}

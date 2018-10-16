@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "Index2";
+    Layout = null;
+}
+
+<h2>Index2</h2>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - 我的 ASP.NET MVC 应用程序</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link href="~/Content/normalize.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/Site2.css" rel="stylesheet" />
+    @*<script src="~/Scripts/jquery-1.7.1.min.js"></script>*@
+
+    @Scripts.Render("~/bundles/modernizr")
+
+    @Scripts.Render("~/EasyUI/js")
+
+    @Styles.Render("~/EasyUI/css")
+
+    <script>
+        $(document).ready(function () {
+            //树形菜单相关设置
+            $('#tt').tree({
+                onClick:function(node)
+                {
+                    //alert(node.attributes.url);
+
+                    //var tabs = $('#tab').tabs('tabs');
+                    var flag = true;
+
+                    //没有打开的选项卡，才新建
+                    if ($('#tab').tabs('exists', node.text))
+                    {
+                        $('#tab').tabs('select', node.text);
+                        var tabc = $('#tab').tabs('getSelected');
+                        tabc.panel({ content: "<iframe style='width:100%;height:100%' src=" + node.attributes.url + "></iframe>" });
+                        //tabc.panel.content = "<iframe style='width:100%;height:100%' src=" + node.attributes.url + "></iframe>";
+                    }
+                    else
+                    {
+                        flag = false;
+                    }
+
+                    //for (var i = 0; i < tabs.length; i++)
+                    //{
+                    //    var pp = $('#tab').tabs('getSelected');
+                    //    var tab = pp.panel('options').tab;    // the corresponding tab object   
+                    //    alert(tab.title);
+
+                    //    if(tabs[i].title == node.text)
+                    //    {
+                    //        flag = true;
+                    //        break;
+                    //    }
+                    //}
+                    
+                    if (flag == false && node.attributes.url != "")
+                    {
+                       $('#tab').tabs('add',
+                       {
+                           title: node.text,
+                           content: "<iframe style='width:100%;height:100%' src=" + node.attributes.url + "></iframe>",
+                           //href:node.attributes.url,
+                           closable: true
+                       });
+                    }                                     
+                }
+            });
+        });
+    </script>
+</head>
+<body class="easyui-layout">
+    <div data-options="region:'north',border:false" style="height:40px;background:#B3DFDA;padding:10px">
+        @ViewBag.Title - 我的 ASP.NET MVC 应用程序
+    </div>
+    <div data-options="region:'west',split:true,title:'West'" style="width:150px;padding:10px;">
+        <ul id="tt" class="easyui-tree" data-options="url:'/Content/menu.json',method:'get',animate:true"></ul>
+    </div>
+    <div data-options="region:'east',split:true,collapsed:true,title:'East'" style="width:100px;padding:10px;">east region</div>
+    <div data-options="region:'south',border:false" style="height:50px;background:#A9FACD;padding:10px;">south region</div>
+    <div data-options="region:'center',title:'Center'">
+        <div id="tab" class="easyui-tabs" data-options="tools:'#tab-tools'" style="width:100%;height:100%">
+        </div>
+
+        
+</body>

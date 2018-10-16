@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LAZYEATINGModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="LAZYEATINGModelStoreContainer">
+    <EntitySet Name="gjjZhiquHistory" EntityType="LAZYEATINGModel.Store.gjjZhiquHistory" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="gjjZhiquHistory">
+    <Key>
+      <PropertyRef Name="hisNum" />
+    </Key>
+    <Property Name="hisNum" Type="bigint" Nullable="false" />
+    <Property Name="hisName" Type="nvarchar" MaxLength="20" />
+    <Property Name="hisID" Type="varchar" MaxLength="36" />
+    <Property Name="hisDate" Type="datetime" />
+    <Property Name="hisMoney" Type="decimal" Precision="26" Scale="2" />
+    <Property Name="hisType" Type="nvarchar" MaxLength="20" />
+    <Property Name="hisOperator" Type="varchar" MaxLength="5" />
+    <Property Name="hisCount" Type="int" />
+    <Property Name="hisDaNum" Type="nvarchar" MaxLength="50" />
+    <Property Name="hisRemark" Type="nvarchar" MaxLength="500" />
+    <Property Name="hisNetwork" Type="nvarchar" MaxLength="50" />
+    <Property Name="hisRemark2" Type="nvarchar" MaxLength="100" />
+    <Property Name="hisNumStr" Type="varchar" MaxLength="100" />
+    <Property Name="hisTypeSub" Type="varchar" MaxLength="50" />
+    <Property Name="hisgjjID" Type="varchar" MaxLength="100" />
+    <Property Name="hisImportDate" Type="datetime" />
+    <Property Name="hiswtspNum" Type="bigint" />
+    <Property Name="hisWork" Type="nvarchar" MaxLength="50" />
+    <Property Name="hiszrAccount" Type="varchar" MaxLength="100" />
+    <Property Name="hiszrAccName" Type="nvarchar" MaxLength="50" />
+    <Property Name="hisStateFlag" Type="varchar" MaxLength="10" />
+  </EntityType>
+</Schema>

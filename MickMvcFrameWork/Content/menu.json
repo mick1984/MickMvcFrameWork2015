@@ -1,0 +1,71 @@
+﻿[
+  {
+    "id": 1,
+    "text": "用户管理",
+    "attributes": { "url": "" },
+    "children": [
+      {
+        "id": 11,
+        "text": "登录",
+        "attributes": { "url": "../User/Login" }
+      },
+      {
+        "id": 12,
+        "text": "显示角色列表",
+        "attributes": { "url": "../User/SelectRole" }
+      },
+      {
+        "id": 13,
+        "text": "增加角色",
+        "attributes": { "url": "../User/UpdateRole?updateType=1" }
+      },
+      {
+        "id": 14,
+        "text": "显示用户列表",
+        "attributes": { "url": "../User/SelectUser" }
+      },
+      {
+        "id": 14,
+        "text": "增加用户",
+        "attributes": { "url": "../User/UpdateUser" }
+      },
+      {
+        "id": 15,
+        "text": "授予用户角色",
+        "attributes": { "url": "../User/GetUser" }
+      },
+      {
+        "id": 16,
+        "text": "显示权限列表",
+        "attributes": { "url": "../User/SelectRight" }
+      },
+      {
+        "id": 16,
+        "text": "增加权限",
+        "attributes": { "url": "../User/AddRight" }
+      },
+      {
+        "id": 17,
+        "text": "授予角色权限",
+        "attributes": { "url": "../User/SetRoleRight" }
+      },
+      {
+        "id": 18,
+        "text": "判断用户权限",
+        "attributes": { "url": "../User/UserHasRight" }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "其他",
+    "attributes": { "url": "" },
+    "children": [
+      {
+        "id": 21,
+        "text": "首页",
+        "attributes": { "url": "../VCTest/Index" }
+      }
+    ]
+  }
+]

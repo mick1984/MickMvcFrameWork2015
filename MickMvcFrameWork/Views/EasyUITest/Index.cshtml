@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+<h2>Index</h2>
+
+@Scripts.Render("~/bundles/modernizr")
+
+@Scripts.Render("~/EasyUI/js")
+
+@Styles.Render("~/EasyUI/css")
+
+<div id="cc2" class="easyui-calendar" style="width:250px;height:250px" ></div>
+
+<div id="cc" style="width:180px;height:180px;"></div>
+
+datebox:
+<input id="dd" type ="text" class="easyui-datebox" required="required" />
+
+<br />
+<input id="ee" type="button" value="点击"/>
+
+<script>
+
+    $(document).ready(
+        function () {
+            $('#cc').calendar({
+                current: new Date()
+            });
+            
+            $('#ee').click(function () {
+                abc();
+            });
+
+            $('#cc2').calendar(
+                {
+                    onSelect: function (date) { abc(); }
+                }
+            );
+
+        }
+    );
+
+    function abc() {
+        var v = $('#cc').calendar.defaults.current;
+
+        //要全部替换需要用到正则表达式
+        var reg = RegExp("/", "g");
+        alert(new Date(v).toLocaleDateString().replace(reg,"-"));
+    }
+    
+</script>
+
