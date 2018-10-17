@@ -1,6 +1,0 @@
-L:\程序\dotNet_Project2015\MisBase2015.DataAccess\MisBase2015.DataAccess\bin\Release\MisBase2015.DataAccess.dll
-L:\程序\dotNet_Project2015\MisBase2015.DataAccess\MisBase2015.DataAccess\bin\Release\MisBase2015.DataAccess.pdb
-L:\程序\dotNet_Project2015\MisBase2015.DataAccess\MisBase2015.DataAccess\bin\Release\EntityFramework.dll
-L:\程序\dotNet_Project2015\MisBase2015.DataAccess\MisBase2015.DataAccess\obj\Release\MisBase2015.DataAccess.csprojResolveAssemblyReference.cache
-L:\程序\dotNet_Project2015\MisBase2015.DataAccess\MisBase2015.DataAccess\obj\Release\MisBase2015.DataAccess.dll
-L:\程序\dotNet_Project2015\MisBase2015.DataAccess\MisBase2015.DataAccess\obj\Release\MisBase2015.DataAccess.pdb
