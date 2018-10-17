@@ -1,17 +1,5 @@
-L:\程序\dotNet_Project2015\MisBase2015.DataAccess\MisBase2015.DataAccess\bin\Debug\MisBase2015.DataAccess.dll
-L:\程序\dotNet_Project2015\MisBase2015.DataAccess\MisBase2015.DataAccess\bin\Debug\MisBase2015.DataAccess.pdb
-L:\程序\dotNet_Project2015\MisBase2015.DataAccess\MisBase2015.DataAccess\obj\Debug\MisBase2015.DataAccess.dll
-L:\程序\dotNet_Project2015\MisBase2015.DataAccess\MisBase2015.DataAccess\obj\Debug\MisBase2015.DataAccess.pdb
-F:\Project_VS_2015\MisBase2015.DataAccess\MisBase2015.DataAccess\bin\Debug\MisBase2015.DataAccess.dll
-F:\Project_VS_2015\MisBase2015.DataAccess\MisBase2015.DataAccess\bin\Debug\MisBase2015.DataAccess.pdb
-F:\Project_VS_2015\MisBase2015.DataAccess\MisBase2015.DataAccess\obj\Debug\MisBase2015.DataAccess.csprojResolveAssemblyReference.cache
-F:\Project_VS_2015\MisBase2015.DataAccess\MisBase2015.DataAccess\obj\Debug\MisBase2015.DataAccess.dll
-F:\Project_VS_2015\MisBase2015.DataAccess\MisBase2015.DataAccess\obj\Debug\MisBase2015.DataAccess.pdb
-<<<<<<< HEAD
 L:\程序\dotNet_Project2015\MickMvcFrameWork2015\MisBase2015.DataAccess\bin\Debug\MisBase2015.DataAccess.dll
 L:\程序\dotNet_Project2015\MickMvcFrameWork2015\MisBase2015.DataAccess\bin\Debug\MisBase2015.DataAccess.pdb
 L:\程序\dotNet_Project2015\MickMvcFrameWork2015\MisBase2015.DataAccess\obj\Debug\MisBase2015.DataAccess.csprojResolveAssemblyReference.cache
 L:\程序\dotNet_Project2015\MickMvcFrameWork2015\MisBase2015.DataAccess\obj\Debug\MisBase2015.DataAccess.dll
 L:\程序\dotNet_Project2015\MickMvcFrameWork2015\MisBase2015.DataAccess\obj\Debug\MisBase2015.DataAccess.pdb
-=======
->>>>>>> 1e157082f919905008f4c27e5f2c532fc289baa8
