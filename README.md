@@ -7,4 +7,6 @@ asp.net+mvc+ef+easyui小试牛刀，建了一个用户的基本框架，里面�
 
 
 
-测试fx
+
+测试ft
+
